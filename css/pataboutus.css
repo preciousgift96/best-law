@@ -1,0 +1,431 @@
+body{
+    background-image: url(../images/newpagebg.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.navbar{
+
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 500px;
+}
+
+
+a{
+
+    font-size: 20px;
+    color: rgb(255, 240, 240);
+    text-decoration: none;
+}
+
+/*contactus styling*/
+.border-Active{
+
+    width: 100px;
+    height: 50px;
+    border: 2px solid #ff974f;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nutral{
+
+    color: rgba(183, 184, 185,0.979);
+
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* styling the first words*/
+.Aboutword{
+
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'lora',serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: -25rem;
+    margin-bottom: 10px;
+}
+
+.about-aim{
+
+    width: 1350px;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.aaiim{
+
+   
+    margin: 20px 10px;
+    padding: 30px;
+}
+
+.aaiim .aimmh5{
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #363232;
+
+}
+
+.aaiim .aimmh3{
+
+    font-size: 50px;
+    font-weight: bold;
+    color: #363232;
+    margin-top: -50px;
+}
+
+.aaiim .aimmh6{
+
+    width: 80px;
+    height: 2px;
+    background-color: #ff974f;
+    margin-top: -30px;
+    
+}
+
+.about-aim .aiimgoals{
+
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: #363232;
+
+}
+
+.aboutbg {
+
+    display: flex;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    justify-content:left;
+}
+
+.chairpat{
+    
+    display: flex;
+    margin-left: 750px;
+    margin-top: -120px;
+    align-content: left;
+    justify-content: left; 
+}
+
+/* styling the address in the last page*/
+
+
+.range{ 
+
+    background-image: url(../images/bgcontact4.jpg); 
+    height: 130vh;
+    /* width: 90%; */
+    background-attachment: fixed;  
+
+    
+}
+
+#form-div{ 
+    
+   background-color: #ffffff;
+   width: 80%;
+   height: 600px;
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 130px;
+   background-position: center;
+
+   
+   
+    
+   
+   
+} 
+
+.now h4{
+    
+    font-size: 1rem;
+    font-family: 'raleway', sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: #1f2a30;
+
+
+    
+   
+}
+
+.us h2{
+
+    font-size: 2rem;
+    font-family:'lora'serif;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-left: 20px;
+    color: #1f2a30;
+
+    
+    
+} 
+
+#form-div .ch6{
+
+    background-color: #ff974f;
+    width: 8%;
+    height: 1px;
+    margin-top: -20px;
+    margin-right: 500px;
+    position: absolute;
+
+    
+    
+}
+
+.willing{
+
+    font-size: 1rem;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    color: #1f2a30;
+    margin-top: -50px;
+    margin-left: 20px;
+
+    
+    
+    
+}
+/* styling the address in the last page*/
+
+.phone{
+    
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+    
+    
+}
+
+.color{
+    
+    display: block;
+    margin-left: 50px;
+    margin-top: -50px;
+    font-size: 1rem;
+    font-weight: 600;
+
+    
+    
+}
+.color .num{
+    
+    margin-top: -20px;
+
+}
+
+.maillope{ 
+
+    margin-left: 20px;
+    display: block;   
+
+}
+
+.email{
+
+    display: block;
+    margin-left: 50px;
+    margin-top: -40px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    
+    
+}
+
+.email .colmail{ 
+
+    margin-top: -20px;
+}
+
+
+.location{ 
+
+    display: block;
+    margin-left: 20px;   
+   
+} 
+
+.map{ 
+
+    display: block;
+    margin-left: 40px;
+    margin-top: -35px;
+    font-size: 1rem;
+    font-weight: 600;
+
+    
+} 
+
+.locmap{ 
+
+    margin-top: -20px;
+} 
+
+/* styling the social icon*/
+.faceicon{
+
+    display: flex;
+    margin-left: 700px;
+    margin-top: -350px ;
+    
+    
+
+}
+
+.faceicon .faceul{ 
+    
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+    
+   
+}
+
+.faceul li{ 
+    
+    list-style: none;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    
+} 
+
+.faceicon a{ 
+
+    color: #000000;
+    
+        
+}
+
+
+
+.lastform{ 
+    
+    display: block;
+    margin-top: 300px;
+    margin-left: 700px;
+    position: absolute;
+    justify-content: space-around;
+    
+    
+}
+
+.name .hold{
+
+    width: 400px;
+    padding: 10px;
+
+}
+
+.name .mail{ 
+
+    width: 400px;
+    padding: 10px;
+
+}
+
+.name .textage{ 
+
+    width: 400px;
+    padding: 10px;
+
+}
+
+.name .subbtn{ 
+
+
+    padding: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    background-color: #ff974f;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 300px;
+    
+
+
+    
+    
+}
+
+.subbtn:hover{
+
+    /* background-color: rgb(2, 34, 49);
+    color:#855806; */
+    background-color: orangered;
+} 
+
+/* hover over the social icons*/
+.facelink:hover{
+
+    color: #ff974f;  
+}
+.twitlink:hover{
+
+    color: #ff974f; 
+}
+.linklink:hover{
+
+    color: #ff974f;
+}
+
+.instalink:hover{
+
+    color: #ff974f;
+}
+
+.vimlink:hover{
+
+    color: #ff974f;
+}
+
+
+
+.footline{
+
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 10px;
+       
+    
+}
+
+.footline .gift{
+
+    
+    color: #1f2a30;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
